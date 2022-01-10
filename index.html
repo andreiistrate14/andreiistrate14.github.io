@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<meta name="viewport" content="initial-scale=1">
+<title>Diabitx</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<style>
+body {
+	background: #000;
+}
+</style>
+</head>
+    
+    <body>
+<div class="headline">
+      <h1>The Secret To Reversing Type II Diabetes HIDDEN <br>
+    Within This Small Vietnamese Village</h1>
+    </div>
+<!--	<video src="DiabetxVSL2.mp4" width= "100%" height="360" autoplay muted></video>-->
+
+<div align="center">
+      <video src="DiabetxVSL2.mp4" type="video/mp4" class="videoc" id="video">Your browser does not support the video tag. </video>
+      <div class="controls">
+    <button id="play-pause" class="play-button" onclick="playPause()"> ⏵︎</button>
+  </div>
+    </div>
+<div class="preferToReadSpace" align="center"> <a HREF="textPage.html">Prefer to read</a> </div>
+</body>
+    </html>
+<script>
+	var playPause = document.getElementById("play-pause");
+playPause.addEventListener("click", function() {
+  if (video.paused == true) {
+    video.play();
+    playPause.classList.toggle('pause');
+	  playPause.innerHTML="⏵︎"	
+  } else {
+    video.pause();
+   playPause.classList.toggle('play');
+	  playPause.innerHTML="⏸︎"
+  }
+});
+    </script>

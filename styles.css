@@ -1,0 +1,288 @@
+@charset "utf-8";
+<link rel="preconnect"href="https://fonts.googleapis.com" > <link rel="preconnect"href="https://fonts.gstatic.com"crossorigin > <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,900;1,400;1,900&family=Poppins:ital,wght@0,300;0,700;1,300;1,700&display=swap"rel="stylesheet" > html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: auto;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+p {
+    width: 85%;
+    max-width: 700px;
+    font-size: 1em;
+    line-height: 1.65em;
+    margin: 0 auto 1.722em;
+    font-weight: 300;
+}
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    font-size: 2.34em;
+    line-height: 1.532em;
+    color: #fff;
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+    font-weight: 300;
+    text-align: center;
+}
+h2 {
+    font-size: 2.05em;
+    line-height: 1.537em;
+    margin-bottom: 1.537em;
+    text-align: center;
+    font-weight: 300;
+}
+h3 {
+    font-size: 1.6em;
+    line-height: 1.594em;
+    margin-bottom: 1.594em;
+    text-align: center;
+    font-weight: 300;
+}
+strong {
+    font-weight: 900;
+}
+p strong, span strong, .pricing strong {
+    font-weight: 700;
+}
+.main {
+    width: 90%;
+    max-width: 995px;
+    padding: 25px 0px 55px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+/* Columns */
+a:link {
+    color: brown;
+    background-color: transparent;
+    text-decoration: none;
+}
+.row {
+    width: 100%;
+    clear: both;
+    float: none;
+    overflow: visible;
+}
+.onethird {
+    width: 31.33%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 1.003%;
+    float: left;
+}
+.twothirds {
+    width: 64.66%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: block;
+    margin: 1.003%;
+    float: left;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.priceoptionone, .priceoptionthree {
+    background: #340710;
+}
+.priceoptionsix {
+    background: #580004;
+    position: relative;
+    margin-top: -10px;
+    z-index: 9999;
+}
+.pricingHeader {
+    font-size: 0.6em;
+    display: block;
+    top: -20px;
+    background: #000;
+    margin: 0 auto;
+    color: #fff;
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.priceoptionone .pricingTitle {
+    background: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    padding: 10px;
+    font-size: 0.7em;
+    text-align: center;
+    margin: -5px auto 10px;
+    width: 80%;
+}
+.priceoptionsix .pricingTitle {
+    color: #fff;
+    font-size: 0.7em;
+    text-align: center;
+    margin: -5px auto 10px;
+    width: 80%;
+    background: rgb(228 59 44);
+    border-radius: 3px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 10px;
+    border: 1px solid rgb(228 59 44);
+}
+.priceoptionsix .pricingSubtitle {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-color: rgb(228, 59, 44);
+    background-color: rgba(0, 0, 0, 0.33);
+    font-size: 11px;
+    margin: 0 auto;
+    width: 80%;
+    top: -10px;
+    position: relative;
+    padding: 10px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: 1px solid rgb(228 59 44);
+}
+.priceoptionthree .pricingTitle {
+    background: rgba(0, 0, 0, 0.25);
+    color: #fff;
+    padding: 10px;
+    font-size: 0.7em;
+    text-align: center;
+    margin: -5px auto 10px;
+    width: 80%;
+}
+.pricing {
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+.preferToReadSpace {
+    padding-top: 400px;
+}
+.button {
+    width: max-content;
+    font-size: 1.5em;
+    background: #ffc000;
+    box-shadow: inset 0 0 0 2px rgb(255 255 255 / 20%);
+    border-radius: 3px;
+    text-shadow: -1px -1px 0px rgb(255 255 255 / 10%);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+.hiddenView {
+    width: 0px;
+    display: none;
+}
+.buynow a {
+    color: #000;
+    text-decoration: none !important;
+}
+.clearfix {
+    float: none;
+    clear: both;
+    width: 100%;
+}
+/* Special Formatting - make sure you use strong for bold, em for italic, u for underline and strike for strikethrough */
+p strong u em {
+    background: #ffcc00;
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none !important;
+    font-style: normal;
+    transform: rotate(-1deg);
+    text-shadow: 1px 1px 0 rgb(255 255 255 / 50%);
+    box-shadow: 1px 1px 0 0 rgb(0 0 0 / 35%);
+    text-decoration-line: none;
+}
+.note {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: normal;
+    position: relative;
+    top: -10px;
+    font-style: normal;
+    background: none !important;
+}
+p.headline {
+    text-align: center;
+    font-size: 36px;
+}
+p.bigTextHeadline {
+    text-align: center;
+    font-size: 28px;
+}
+p.resources {
+    font-size: 12px;
+}
+.controls {
+	position: relative;
+	left: -29%;
+	bottom: 100%;
+}
+.play-button {
+	background: #000;
+	border: #000;
+	color: #FFF;
+	font-size: 25px;
+}
+.videoc {
+	margin: 0;
+	width: 60%;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    font-size:18px;
+  }
+	.onethird, .twothirds{
+		float:none;
+		width:100%;
+		margin:20px auto;
+	}
+	br {display: none;}
+	p strong u em {
+    	display: inline;
+    	margin-top: 5px;
+    	margin-bottom: 5px;
+    	line-height: 2.2em !important;
+  		text-decoration-line: none;
+  		text-decoration-style: none;
+ 		text-decoration-color: none;
+	}
+}
